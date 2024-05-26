@@ -1,0 +1,17 @@
+.faq-view
+  width: 100%
+  height: 100vh
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  &__top
+    height: 230px
+    width: 100%
+    background-image: url("/background-pattern-mobile.svg")
+    background-repeat: no-repeat
+    background-size: cover
+
+    @media screen and (min-width: 768px)
+      height: 285px
+      background-image: url("/background-pattern-desktop.svg")
