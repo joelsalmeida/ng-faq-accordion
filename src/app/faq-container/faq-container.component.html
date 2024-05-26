@@ -1,0 +1,10 @@
+<section class="faq-container">
+  <div class="faq-container__header">
+    <img src="/icon-star.svg" alt="">
+    <h1>{{title}}</h1>
+  </div>
+
+  <div>
+    <app-faq-item *ngFor="let faq of faqList;" [question]="faq.question" [answer]="faq.answer"></app-faq-item>
+  </div>
+</section>
