@@ -1,0 +1,14 @@
+<div class="faq-item">
+  <label for={{question}} class="faq-item__header">
+    <span>{{ question }}</span>
+
+    <button (click)="toggle()" id="{{question}}">
+      <span>{{ open === true ? 'Hide answer' : 'Show answer' }}</span>
+      <img src="{{ open === true ? 'icon-minus.svg': 'icon-plus.svg' }}" alt="" />
+    </button>
+  </label>
+
+  @if (open){
+  <p class="faq-item__answer">{{ answer }}</p>
+  }
+</div>
