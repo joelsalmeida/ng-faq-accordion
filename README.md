@@ -1,27 +1,58 @@
-# NgFaqAccordion
+# Frontend Mentor - FAQ accordion solution
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### The challenge
 
-## Build
+Users should be able to:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Hide/Show the answer to a question when the question is clicked
+- Navigate the questions and hide/show answers using keyboard navigation alone
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-## Running unit tests
+### Screenshot
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Screenshot](ng-faq-accordion.png)
 
-## Running end-to-end tests
+### Links
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [Solution URL](https://github.com/joelsalmeida/ng-faq-accordion)
+- [Live Site URL](https://ng-faq-accordion.vercel.app/)
 
-## Further help
+## My process
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+As my first project with Angular, my goal was to understand and practice the basic concepts. (Components, interpolation, directives...) I really enjoyed working with the "angular cli", in addition to making the work easier, it helps a lot when applying patterns to the project.
+
+### Built with
+
+- [Angular](https://angular.dev/) - Angular Framework
+- [Sass](https://sass-lang.com/) - Syntactically Awesome Style Sheets
+
+### Continued development
+
+Continue learning about the framework and working on more complex projects. In the future, I want to build a full-stack application together with NestJs.
+
+### Useful resources
+
+- [How to Deploy an Angular Site with Vercel](https://vercel.com/guides/deploying-angular-with-vercel) 
+
+## Author
+
+- GitHub - [@joelsalmeida](https://github.com/joelsalmeida)
+- Frontend Mentor - [@joelsalmeida](https://www.frontendmentor.io/profile/joelsalmeida)
+
